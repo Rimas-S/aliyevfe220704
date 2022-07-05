@@ -2,6 +2,8 @@
 
 Simple component showing customer spent time per page. Responsive for all devices.
 
+By clicking on the button spending times are replaced by random number.
+
 ### `npm start`
 
 Runs the app in the development mode.\
