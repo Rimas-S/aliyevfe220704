@@ -1,0 +1,56 @@
+.chart {
+  font-family: "Roboto";
+  font-size: 16px;
+}
+
+#btn {
+  text-align: center;
+}
+
+button {
+  padding: 0.5rem 1rem;
+  margin: 2rem 1rem;
+  width: 100px;
+}
+
+h1 {
+  padding: 0 2rem;
+  font-size: 20px;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 1fr 4fr;
+  align-items: center;
+  gap: 2rem;
+  margin: 1rem 0;
+}
+
+.name {
+  text-align: end;
+}
+
+.time-container {
+  position: relative;
+  background: #d9d9d9;
+  height: 50px;
+}
+
+.time {
+  position: absolute;
+  top: 0;
+  background-color: rgb(93, 187, 148);
+  text-align: center;
+  height: inherit;
+}
+
+@media only screen and (max-width: 600px) {
+  .container {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
+
+  .name {
+    text-align: start;
+  }
+}
